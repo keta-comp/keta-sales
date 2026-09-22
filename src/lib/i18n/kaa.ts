@@ -912,6 +912,16 @@ const table: Record<string, string> = {
   "Zaxira": "Zapas",
   "Zaxira / Ombor": "Zapas / Saqlaw ornı",
   "Zaxira yangilandi": "Zapas jańalandı",
+  "zamonaviy": "zamanagóy",
+"Savdo": "Sawda",
+"Statistika": "Statistika",
+
+"Barcha mijozlaringizni bitta joyda boshqaring.": "Barlıq klientlerińizdi bir jerde basqarıń.",
+"Murojaatlarni nazorat qiling va savdoni oshiring.": "Múrájaatlerdi baqlap, sawdanı arttırıń.",
+"Mahsulotlar va qoldiqlarni boshqaring.": "Ónimler hám qaldiqlardı basqarıń.",
+"Mijozlar murojaatlarini tartibga soling.": "Klientler múrájaatlerin tártipke salıń.",
+"Operatorlar va vazifalarni boshqaring.": "Operatorlar hám wazıypalardı basqarıń.",
+"Biznesingiz natijalarini kuzatib boring.": "Biznesińiz nátiyjelerin baqlap barıń.",
 };
 
 export default table;
