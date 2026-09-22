@@ -1,0 +1,1 @@
+update public.conversations set mode = 'ai' where mode = 'human' and (last_message_at is null or last_message_at < now() - interval '30 minutes'); update public.telegram_bots set last_error = null where last_error = 'Bad Request: chat not found';
