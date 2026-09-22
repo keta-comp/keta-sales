@@ -912,6 +912,16 @@ const table: Record<string, string> = {
   "Zaxira": "Stock",
   "Zaxira / Ombor": "Stock / Warehouse",
   "Zaxira yangilandi": "Stock updated",
+  "zamonaviy": "modern",
+"Savdo": "Sales",
+"Statistika": "Statistics",
+
+"Barcha mijozlaringizni bitta joyda boshqaring.": "Manage all your customers in one place.",
+"Murojaatlarni nazorat qiling va savdoni oshiring.": "Track inquiries and increase your sales.",
+"Mahsulotlar va qoldiqlarni boshqaring.": "Manage products and inventory.",
+"Mijozlar murojaatlarini tartibga soling.": "Organize customer inquiries.",
+"Operatorlar va vazifalarni boshqaring.": "Manage operators and tasks.",
+"Biznesingiz natijalarini kuzatib boring.": "Track your business performance.",
 };
 
 export default table;
