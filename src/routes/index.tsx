@@ -17,7 +17,7 @@ import {
   X,
 } from "lucide-react";
 
-import logoAsset from "@/assets/keta-crm-logo.png.asset.json";
+import logoUrl from "@/assets/nexora-logo.webp";
 import {
   BRAND_NAME,
   BRAND_TAGLINE,
@@ -166,7 +166,7 @@ function Landing() {
 
         <div className="clay-metal relative grid place-items-center overflow-hidden p-10">
           <img
-            src={logoAsset.url}
+            src={logoUrl}
             alt={t("NEXORA CRM metallik logotipi")}
             className="w-full max-w-sm object-contain drop-shadow-2xl"
           />

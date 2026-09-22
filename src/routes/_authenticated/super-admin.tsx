@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
-import logoAsset from "@/assets/keta-crm-logo.png.asset.json";
+import logoUrl from "@/assets/nexora-logo.webp";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -158,7 +158,7 @@ function SuperAdminLayout() {
   const brand = (
     <div className="flex items-center gap-2 px-3 py-4">
       <span className="clay-raised grid size-10 place-items-center overflow-hidden rounded-2xl bg-card">
-        <img src={logoAsset.url} alt="NEXORA CRM" className="size-8 object-contain" />
+        <img src={logoUrl} alt="NEXORA CRM" className="size-8 object-contain" />
       </span>
       <div className="leading-tight">
         <p className="font-display text-sm font-semibold">NEXORA CRM</p>

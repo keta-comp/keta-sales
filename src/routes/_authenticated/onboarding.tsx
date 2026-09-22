@@ -3,7 +3,7 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { useEffect, useMemo, useState } from "react";
 
-import logoAsset from "@/assets/keta-crm-logo.png.asset.json";
+import logoUrl from "@/assets/nexora-logo.webp";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -87,7 +87,7 @@ function Onboarding() {
       <div className="mx-auto flex w-full max-w-2xl flex-col gap-8 px-4 py-10">
         <div className="flex items-center gap-3">
           <span className="clay-raised grid size-12 place-items-center overflow-hidden rounded-2xl bg-card">
-            <img src={logoAsset.url} alt={t("NEXORA CRM logotipi")} className="size-9 object-contain" />
+            <img src={logoUrl} alt={t("NEXORA CRM logotipi")} className="size-9 object-contain" />
           </span>
           <div>
             <p className="font-display text-lg font-semibold">NEXORA CRM</p>

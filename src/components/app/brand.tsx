@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/keta-crm-logo.png.asset.json";
+import logoUrl from "@/assets/nexora-logo.webp";
 import { cn } from "@/lib/utils";
 import { t } from "@/lib/i18n";
 
@@ -49,7 +49,7 @@ export function BrandMark({
   return (
     <div className={cn("flex items-center gap-2.5", className)}>
       <img
-        src={logoAsset.url}
+        src={logoUrl}
         alt={t("NEXORA CRM logotipi")}
         className={cn("object-contain", size === "sm" ? "h-7 w-9" : "h-9 w-12")}
       />

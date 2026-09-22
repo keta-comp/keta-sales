@@ -37,7 +37,7 @@ import {
 import type { LucideIcon } from "lucide-react";
 import { toast } from "sonner";
 
-import logoAsset from "@/assets/keta-crm-logo.png.asset.json";
+import logoUrl from "@/assets/nexora-logo.webp";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { GlobalSearch } from "@/components/app/GlobalSearch";
@@ -168,7 +168,7 @@ export function DashboardShell({
   const brand = (
     <div className="flex items-center gap-2 px-3 py-4">
       <span className="clay-raised grid size-10 place-items-center overflow-hidden rounded-2xl bg-card">
-        <img src={logoAsset.url} alt={t("NEXORA CRM logotipi")} className="size-8 object-contain" />
+        <img src={logoUrl} alt={t("NEXORA CRM logotipi")} className="size-8 object-contain" />
       </span>
       <div className="leading-tight">
         <p className="font-display text-sm font-semibold">NEXORA CRM</p>
